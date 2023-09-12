@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title> Exercise 4 </title>
+</head>
+<style>
+    body {
+        margin: 0;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    header li {
+        line-height: 80px;
+        font-size: 24px;
+        color: white;
+        margin: 0 20px;
+    }
+
+    header li a {
+        color: white;
+        text-decoration: none;
+    }
+
+    header li:visited {
+        color: white;
+    }
+
+    .footercolumn {
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer * {
+        color: white;
+    }
+
+    .info {
+        display: inline-block;
+        padding: 50px;
+        border-radius: 25px;
+        background-color: red;
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin: 200px;
+
+    }
+</style>
+
+<body>
+    <!--Now create a new HTML document using paragraphs, headings and text formatting elements to create a web page for your favorite movie. Whether it's from an actual movie or not is up to you,
+             but try to use these elements appropriately to give the text appropriate significance.-->
+
+    <header style="display: block; width: 100%; background-color: black; position: fixed; z-index: 1;">
+        <ul
+            style=" padding-left:0; margin:0; display: flex; flex-direction: row; align-items: center; justify-content: center; list-style: none;">
+            <li><a href="/">Info</a></li>
+            <li><a href="/">News</a></li>
+            <li><a href="/">Contact</a></li>
+            <li><a href="/">About</a></li>
+        </ul>
+    </header>
+    <main>
+        <section
+            style="position: relative;background-position:center center; height: 60vh; background-image: url(./header.jpg); background-size: cover; background-repeat: no-repeat;">
+            <div class="info">
+                <p><strong>OUT NOW</strong> </p>
+            </div>
+        </section>
+        <section style="padding: 50px 100px; background-color: gray;">
+            <p style="font-size: 18px; color: white;">
+                Lorem ipsum dolfor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
+                ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+                dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+                clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+                amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
+                kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum
+                dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent
+                luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,
+                consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+                erat volutpat.
+
+                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
+                ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+                consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim
+                qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+            </p>
+        </section>
+
+    </main>
+    <footer style="background-color: black; height: 45vh; display: flex;">
+        <div class="footercolumn column1">
+            <h2>Title 1</h2>
+            <p>SOme text</p>
+        </div>
+        <div class="footercolumn column2">
+            <h2>Title 2</h2>
+            <p>SOme text</p>
+        </div>
+        <div class="footercolumn column3">
+            <h2>Title 3</h2>
+            <p>SOme text</p>
+        </div>
+
+    </footer>
+</body>
+
+</html>
